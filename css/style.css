@@ -4,7 +4,8 @@
 
 body {
    /* background-color: #da8641;*/
-    background-image: linear-gradient(#da8641, #ecbb34);
+   /* background-image: linear-gradient(#da8641, #ecbb34);*/
+    background-image: linear-gradient(#22c1c3,#fdbb2d);
     background-attachment: fixed;
     margin: 0;
     padding: 0;
