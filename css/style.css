@@ -1,0 +1,415 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #da8641;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    background-color: #f0decc;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 10px 10px 20px 10px black;
+}
+
+header {
+    background-image: url(../img/playa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+}
+
+nav {
+    background-color: #f0decc;
+    float: left;
+    width: 20%;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+nav ul li {
+    background-color: #82dfdf;
+    font-size: 24px;
+    text-align: center;
+    margin: 1px 1px;
+    padding: 10px;
+    color: #052e38;
+    border: solid 6px #c56a40;
+    border-radius: 5px;
+
+}
+
+nav ul li:hover {
+    background-color: #219e79;
+    color: white;
+
+}
+
+.content {
+    background-color: #f0decc;
+    width: 80%;
+    float: right;
+    padding: 0 1%;
+
+}
+
+#home {
+    padding: 10px;
+
+
+}
+
+#home img {
+    padding: 70px;
+    width: 500px;
+}
+
+footer {
+    background-color: #238489;
+    text-align: center;
+    font-size: 23px;
+    color: #dd994b
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.cb {
+    clear: both;
+}
+
+/*Estilos de hoja parrafos*/
+
+.tag {
+    color: rgb(182, 8, 8);
+    font-size: 24px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.txt-amarillo {
+    color: rgb(194, 181, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#listas{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Estilos de listas*/
+ul.ldp li {
+    list-style-type: disc;
+}
+
+ul.ldp li ul li {
+    list-style-type: square;
+}
+
+ul.ldp li ul li ul li {
+    list-style-type: circle;
+}
+
+/*Listas ordenadas personalizadas*/
+ol.lop li {
+    list-style-type: upper-latin;
+}
+
+ol.lop li ol li {
+    list-style-type: lower-roman;
+}
+
+ol.lop li ol li ol li {
+    list-style-type: georgian;
+}
+
+/*listas ordenadas con imágenes*/
+
+ol.lopi li {
+    list-style-type: decimal;
+}
+
+ol.lopi li ol li {
+    list-style-image: url(../img/palmera\ \(1\).png);
+}
+
+ol.lopi li ol li ol li {
+    list-style-image: none;
+    list-style-type: lower-roman;
+}
+
+/*Estilos para una lista definición (abajo)*/
+
+dt {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    color: #1BA37C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Estilos TABLAS*/
+#tablas {
+    padding: 10px;
+}
+
+table.tec th {
+    background-color: #4eaa90;
+    color: rgb(241, 206, 3);
+}
+
+table.tec td {
+    background-color: rgb(168, 150, 192);
+}
+
+table.tef th {
+    background-color: #8cfd75;
+    color: #3f6d88;
+}
+
+table.tef td {
+    background-color: #dd994b;
+}
+
+/*tabla stripped*/
+
+table.str tr:nth-child(even) {
+    background-color: #96c9c5;
+}
+
+table.str tr:nth-child(odd) {
+    background-color: #c5635a;
+}
+
+
+/*Tabla de los horarios*/
+
+table.tablaBlanca td,
+table.tablaBlanca th {
+    border: 1px solid black;
+    font-family: Arial;
+    text-align: center;
+
+}
+
+table.tablaCentrada {
+    margin: 0 auto;
+}
+
+table tr td.prog {
+    background-color: #0080ff;
+}
+
+table tr td.bdd {
+    background-color: #ff8080;
+}
+
+table tr td.sisi {
+    background-color: #ffa264;
+}
+
+table tr td.fol {
+    background-color: #ffff64;
+}
+
+table tr td.ing {
+    background-color: #d2d26e;
+}
+
+table tr td.lmsg {
+    background-color: #00df00;
+}
+
+table tr td.ende {
+    background-color: #00b95c;
+}
+
+table tr .csf {
+    /*Celdas sin fondo*/
+    background-color: #f0f0f0;
+    color: #028080;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Formularios*/
+
+
+.textForm {
+    background-color: #ffffff;
+    padding: 5px;
+    /* text-align: center; */
+    border: 2px none rgb(28, 209, 104);
+    border-radius: 5px;
+    /* box-shadow: 3px 3px 2px rgb(249, 255, 85); */
+}
+
+.textForm:focus {
+    color: rgb(0, 0, 0);
+    outline-color: rgb(131, 224, 167);
+    box-shadow: -3px -3px 10px rgb(97, 255, 150);
+    transition: .1s;
+    transition-property:box-shadow;
+}
+
+.txt-left {
+    text-align: left;
+}
+
+.w-100 {
+    width: 99%;
+}
+
+.w-50 {
+    width: 49%;
+}
+
+form.reserva fieldset {
+    margin: 5px auto;
+    text-align: center;
+    width: 40%;
+    border: 7px groove rgb(51, 221, 51);
+    border-radius: 6px;
+    
+
+}
+
+form.reserva fieldset legend {
+    /*La primera leyenda que hay*/
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+#nombreReserva {
+    /*esto es para que se me pusieran encima del campo*/
+    width: 49%;
+    float: left;
+}
+
+#apellidosReserva {
+    /*esto es para que se me pusieran encima del campo*/
+    width: 49%;
+    float: left;
+}
+
+form.reserva fieldset p {
+    font-weight: bold;
+    font-size: large;
+    margin: 5px auto;
+
+}
+
+form fieldset.pensiones {
+    /*el recuadro de pensiones*/
+    width: 90%;
+}
+
+form.reserva fieldset.pensiones legend {
+    /*para la leyenda de las pensiones*/
+    font-style: italic;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.campodetexto {
+    /*Para que no lo podamos ampliar*/
+    resize: none;
+}
+
+.wSpace {
+    /*Esto es solo para los espacios en blanco*/
+    margin: 25px;
+}
+
+
+/*HTML de MULTIMEDIA*/
+.asBlock{
+    display: block;
+}
+.audioMultimedia{
+    width: 90%;
+}
+
+
+
+
+
+#formhtml5{
+    margin: 10px auto;
+}
+
+#formhtml5 form{
+    margin:0 auto;
+    width: fit-content;
+
+}
+#formhtml5 form fieldset{
+    border:4px groove #82dfdf ;
+}
+#formhtml5 form fieldset legend{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

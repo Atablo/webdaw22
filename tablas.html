@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header></header>
+        <div class="principal">
+            <nav>
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="parrafos.html">
+                        <li>Párrafos</li>
+                    </a>
+                    <a href="enlaces.html">
+                        <li>Enlaces</li>
+                    </a>
+                    <a href="tablas.html">
+                        <li>Tablas</li>
+                    </a>
+                    <a href="listas.html">
+                        <li>Listas</li>
+                    </a>
+                    <a href="formularios.html">
+                        <li>Formularios</li>
+                    </a>
+                    <a href="multimedia.html">
+                        <li>Multmedia</li>
+                    </a>
+                    <a href="formhtml5.html">
+                        <li>FormHtml5</li>
+                    </a>
+                </ul>
+            </nav>
+            <div class="content">
+                <div id="tablas">
+                    <h1 class="txt-center">Práctica de Tablas</h1>
+                    <h2>Tabla de encabezado de fila</h2>
+                    <table border="1" class="tef">
+                        <tr>
+                            <th>Hotel</th>
+                            <th>Ubicación</th>
+                            <th>Precio/noche</th>
+                            <th>Tipo de pensión</th>
+                            <th>Disponible</th>
+                        </tr>
+                        <tr>
+                            <td>Copacabana</td>
+                            <td>Rio de Janeiro</td>
+                            <td>45€</td>
+                            <td>Media Pensión</td>
+                            <td>Si</td>
+                        </tr>
+                        <tr>
+                            <td>Atlântico</td>
+                            <td>Sáo Paulo</td>
+                            <td>65€</td>
+                            <td>Pensión completa</td>
+                            <td>Si</td>
+                        </tr>
+                        <tr>
+                            <td>Astoria Palace</td>
+                            <td>Brasilia</td>
+                            <td>37€</td>
+                            <td>Pensión completa</td>
+                            <td>No</td>
+                        </tr>
+                    </table>
+                    <h2>Tabla de encabezado de columna</h2>
+                    <table border="1" class="tec">
+                        <tr>
+                            <th>Hotel</th>
+                            <td>Ubicación</td>
+                            <td>Precio noche</td>
+                            <td>Tipo de pensión</td>
+                            <td>Disponible</td>
+                            
+                        </tr>
+                        <tr>
+                            <th>Copacabana</th>
+                            <td>Rio de Janeiro</td>
+                            <td>45€</td>
+                            <td>Media Pensión</td>
+                            <td>Si</td>
+                            
+                        </tr>
+                        <tr>
+                            <th>Atlântico</th>
+                            <td>Sáo Paulo</td>
+                            <td>5€</td>
+                            <td>Completa</td>
+                            <td>Si</td>
+                            
+                        </tr>
+                        <tr>
+                            <th>Astoria Palace</th>
+                            <td>Brasilia</td>
+                            <td>37€</td>
+                            <td>Completa</td>
+                            <td>No</td>
+                            
+                        </tr>
+                    </table>
+                    <h2>Tabla con combinaciones de celdas</h2>
+                    <table border="1" class="tec">
+                        <tr>
+                            <th>Hotel</th>
+                            <td>Ubicación</td>
+                            <td>Precio noche</td>
+                            <td>Tipo de pensión</td>
+                            <td>Disponible</td>
+                            
+                        </tr>
+                        <tr>
+                            <th>Copacabana</th>
+                            <td>Rio de Janeiro</td>
+                            <td>45€</td>
+                            <td rowspan="2">Media Pensión</td>
+                            <td>Si</td>
+                        </tr>
+                        <tr>
+                            <th>Atlântico</th>
+                            <td>Sáo Paulo</td>
+                            <td>5€</td>
+                            
+                            <td>Si</td>
+                            
+                        </tr>
+                        <tr>
+                            <th colspan="2">Astoria Palace</th>
+                            <td>37€</td>
+                            <td>Completa</td>
+                            <td>No</td>
+                            
+                        </tr>
+                    </table>
+                    <h2>Tabla Stripped</h2>
+                    <table border="1" class="str">
+                        <tr>
+                            <th>Hotel</th>
+                            <th>Ubicación</th>
+                            <th>Precio/noche</th>
+                            <th>Tipo de pensión</th>
+                            <th>Disponible</th>
+                        </tr>
+                        <tr>
+                            <td>Copacabana</td>
+                            <td>Rio de Janeiro</td>
+                            <td>45€</td>
+                            <td>Media Pensión</td>
+                            <td>Si</td>
+                        </tr>
+                        <tr>
+                            <td>Atlântico</td>
+                            <td>Sáo Paulo</td>
+                            <td>65€</td>
+                            <td>Pensión completa</td>
+                            <td>Si</td>
+                        </tr>
+                        <tr>
+                            <td>Astoria Palace</td>
+                            <td>Brasilia</td>
+                            <td>37€</td>
+                            <td>Pensión completa</td>
+                            <td>No</td>
+                        </tr>
+                    </table>
+                    
+                    <h2>Horario de clases</h2>
+                    <table class="tablaBlanca  tablaCentrada">
+                        <tr>
+                            <th class="csf" colspan="6" >
+                               <em>S1DAW</em> 
+                            </th>
+                        </tr>
+                        <tr>
+                            <th class="csf">&#47;~&#92;</th>
+                            <td class="csf">Lunes</td>
+                            <td class="csf">Martes</td>
+                            <td class=" csf">Miercoles</td>
+                            <td class="csf">Jueves</td>
+                            <td class="csf">Viernes</td>
+                        </tr>
+                        <tr>
+                            <th class="csf">8:15<br>9:10</th>
+                            <td class="bdd" rowspan="2" > BDD<br>Bern.Be,CR<br>(1 B-301)</td>
+                            <td class="fol">FOL<br>Prud. Ga, Es<br>(1 B-301)</td>
+                            <td class="ende">ENDE<br>Polo Or, Ed<br>(1 B-301)</td>
+                            <td class="sisi" rowspan="2">SISI<br>Álva. Gi,An</br>(1 B-301)</td>
+                            <td class="sisi" rowspan="2">SISI<br>Álva. Gi,An</br>(1 B-301)</td>
+                        </tr>
+                        <tr>
+                            <th class="csf">9:10 <br>10:05</th>
+                            <td class="ende">ENDE<br>Polo Or, Ed<br>(1 B-301)</td>
+                            <td class="fol">FOL<br>Prud. Ga, Es<br>(1 B-301)</td>
+                            
+                           
+                        </tr>
+                        <tr>
+                            <th class="csf">10:05<br>11:00</th>
+                            <td class="sisi">SISI<br>Álva. Gi,An</br>(1 B-301)</td>
+                            <td class="prog">PROG<br>Mart. Ca, JoJa<br>(1 B-301)</td>
+                            <td class="prog">PROG<br>Mart. Ca, JoJa<br>(1 B-301)</td>
+                            <td class="prog">PROG<br>Mart. Ca, JoJa<br>(1 B-301)</td>
+                            <td class="ing">ING<br>Corr. Pi, JoMa<br>(1 B-301)</td>
+                            
+                        </tr>
+                        <tr>
+                            <td class="csf">&nbsp;</td>
+                            <td class="csf"colspan="5"  >recreo</td>
+                        </tr>
+                        <tr>
+                            <th class="csf">11:30<br>12:25</th>
+                            <td class="sisi">SISI<br>Álva. Gi,An</br>(1 B-301)</td>
+                            <td class="prog">PROG<br>Mart. Ca, JoJa<br>(1 B-301)</td>
+                            <td class="prog">PROG<br>Mart. Ca, JoJa<br>(1 B-301)</td>
+                            <td class="prog">PROG<br>Mart. Ca, JoJa<br>(1 B-301)</td>
+                            <td class="ende">ENDE<br>Polo Or, Ed<br>(1 B-301)</td>
+                        </tr>
+                        <tr>
+                            <th class="csf">12:25<br>13:20</th>
+                            <td class="lmsg" rowspan="2">LMSG<br>Puli. Mo, FrJo<br>(1 B-301)</td>
+                            <td class="bdd" rowspan="2" > BDD<br>Bern.Be,CR<br>(1 B-301)</td>
+                            <td class="bdd" rowspan="2" > BDD<br>Bern.Be,CR<br>(1 B-301)</td>
+                            <td class="fol">FOL<br>Prud. Ga, Es<br>(1 B-301)</td>
+                            <td class="lmsg" rowspan="2">LMSG<br>Puli. Mo, FrJo<br>(1 B-301)</td>
+                        </tr>
+                        <tr>
+                            <th class="csf">13:20<br>14:15</th>
+                            <td class="ing">ING<br>Corr. Pi, JoMa<br>(1 B-301)</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="cb"></div>
+        <footer>&copy;Pablo-S1 DAW</footer>
+    </div>
+    
+</body>
+</html>

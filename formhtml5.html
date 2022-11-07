@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        function updateTxtRange(valor) {
+            document.getElementById('idrange').value = valor;
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <header></header>
+        <div class="principal">
+            <nav>
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="parrafos.html">
+                        <li>Párrafos</li>
+                    </a>
+                    <a href="enlaces.html">
+                        <li>Enlaces</li>
+                    </a>
+                    <a href="tablas.html">
+                        <li>Tablas</li>
+                    </a>
+                    <a href="listas.html">
+                        <li>Listas</li>
+                    </a>
+                    <a href="formularios.html">
+                        <li>Formularios</li>
+                    </a>
+                    <a href="multimedia.html">
+                        <li>Multmedia</li>
+                    </a>
+                    <a href="formhtml5.html">
+                        <li>FormHtml5</li>
+                    </a>
+                </ul>
+            </nav>
+            <div class="content">
+                <div id="formhtml5">
+                    <h1 class="txt-center">FormulariosHTML5</h1>
+                    <form action="get" enctype="multipart/form-data">
+                        <fieldset>
+                            <legend>Formulario de inscripción para grupos grandes
+                            </legend>
+                            <p><input type="url" name="url" placeholder="URL"></p>
+                            <p><input type="email" name="email" placeholder="E-mail de la institución"></p>
+                            <p>Precio a pagar(individual)</p>
+                            <p> 
+                                <input type="range" name="rango"  min="0" max="1500" onchange="updateTxtRange(this.value)">
+                                <input type="text" id="idrange" value=" " disabled>
+                            </p>
+                            Introduzca una fecha de llegada:
+                            <p><input type="date" name="fechaElegida" ></p>
+                            Introduzca una fecha de salida:
+                            <p><input type="datetime-local" name="fechaHora"></p>
+                            Seleccione el número de integrantes del grupo
+                            <p><input type="number" name=""max="100" min="0" step="10"></p>
+                            Envie una foto de los diferentes DNI
+                            <p><input type="file" name="fileName" ></p>
+                            <p><input type="hidden" name="hiddenvariable" value="variableAuxiliar"></p>
+                            Buscador de Servicios al ciudadano
+                            <p><input type="search" name="search" id=""></p>
+                            Seleccione el color del que quiere la habitacción
+                            <p><input type="color" name="color"></p>
+                            <p><input type="image" src="img/palmera (1).png" alt="palmera" name="imagen"></p>
+
+
+                            <p>
+                                <input type="reset" value="Borrar todo">
+                                <input type="submit" value="Enviar">
+                            </p>
+
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="cb"></div>
+        <footer>&copy;Pablo-S1 DAW</footer>
+    </div>
+
+</body>
+
+</html>

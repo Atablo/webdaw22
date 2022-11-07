@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header></header>
+        <div class="principal">
+            <nav>
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="parrafos.html">
+                        <li>Párrafos</li>
+                    </a>
+                    <a href="enlaces.html">
+                        <li>Enlaces</li>
+                    </a>
+                    <a href="tablas.html">
+                        <li>Tablas</li>
+                    </a>
+                    <a href="listas.html">
+                        <li>Listas</li>
+                    </a>
+                    <a href="formularios.html">
+                        <li>Formularios</li>
+                    </a>
+                    <a href="multimedia.html">
+                        <li>Multmedia</li>
+                    </a>
+                    <a href="formhtml5.html">
+                        <li>FormHtml5</li>
+                    </a>
+                </ul>
+            </nav>
+            <div class="content">
+                <div id="form">
+                    <h1 class="txt-center">
+                        Formularios
+                    </h1>
+
+                    <h2>Formulario de Login</h2>
+                    <form action="informacion.html" method="get">
+
+                        Correo: <input type="text" name="nombre" class="textForm"
+                            placeholder="Escriba aquí su correo" />
+                        <div class="wSpace"></div>
+                        Contraseña: <input type="password" name="password" class="textForm" placeholder="Contraseña" />
+                        <div class="wSpace"></div>
+                        <input type="submit" value="Aceptar" />
+
+                    </form>
+                    <h2 class="txt-center">Formulario de Reserva</h2>
+                    <form action="reservas.html" method="get" class=" reserva">
+                        <fieldset>
+                            <legend>Reserva</legend>
+                            
+                            <div class="wSpace"></div>
+                            <p id="nombreReserva">Nombre:</p>
+                            <p id="apellidosReserva">Apellidos:</p>
+                           <div class="cb"></div>
+
+                            <input type="text" name="nombre" class="textForm w-50" placeholder="Nombre" />
+                            <input type="text" name="apellidos" class="textForm w-50" placeholder="Apellido" />
+                            <div class="wSpace"></div>
+
+                            <p class="txt-center">DNI/NIE:</p>
+                            <input type="text" name="identificacion" class="textForm w-100" placeholder="DNI/NIE" />
+                            <div class="wSpace"></div>
+                            <fieldset class="pensiones">
+                                <legend>Tipo de pensión</legend>
+                                <div class="wSpace"></div>
+                                <input type="radio" name="pension" value="1" class="radioBoton">Pensión completa
+                                <div class="wSpace"></div>
+                                <input type="radio" name="pension" value="2" class="radioBoton">Media pensión
+                                <div class="wSpace"></div>
+                                <input type="radio" name="pension" value="3" class="radioBoton">Solo alojamiento
+                                <div class="wSpace"></div>
+                            </fieldset>
+                            <div class="wSpace"></div>
+                            Seleccione el hotel:
+                            <select name="hotel" size="3">
+                                <option value="copacabana">Copacabana</option>
+                                <option value="atlantico"> Atlântico </option>
+                                <option value="astoriaPalace">Astoria Palace</option>
+
+                            </select>
+                            <div class="wSpace"></div>
+                            Numero de personas:
+                            <select name="numPers">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">Más de 5</option>
+                            </select>
+                            <div class="wSpace"></div>
+                            Complementos:
+                            <div class="txt-left">
+                                
+                                <input type="checkbox" name="vistasMar">Habitación con vistas al mar
+                                <br>
+                                <input type="checkbox" name="buffet">Buffet libre
+                                <br>
+                                <input type="checkbox" name="animInf">Animación infantil
+                                <div class="wSpace"></div>
+                            </div>
+                            Otras observaciones:
+                            
+                            <textarea name="observaciones" cols="30" rows="3" class="campodetexto"></textarea>
+                            <div class="wSpace"></div>
+                            <input type="submit" value="Hacer reserva">
+                        </fieldset>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="cb"></div>
+        <footer>&copy;Pablo-S1 DAW</footer>
+    </div>
+
+</body>
+
+</html>
